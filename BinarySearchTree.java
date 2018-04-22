@@ -1,4 +1,3 @@
-package com.bank.model;
 
 class Node {
     public int value;
