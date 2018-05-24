@@ -1,4 +1,4 @@
-package com.bank.model;
+package tomkous.algos;
 
 import java.lang.String;
 

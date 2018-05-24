@@ -1,3 +1,4 @@
+package tomkous.algos;
 
 class Node {
     public int value;

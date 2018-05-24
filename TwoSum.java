@@ -1,4 +1,4 @@
-package com.bank.model;
+package tomkous.algos;
 
 public class TwoSum {
     public static int[] findTwoSum(int[] list, int sum) {
