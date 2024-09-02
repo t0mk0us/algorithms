@@ -8,7 +8,6 @@ public class SomePerson {
 	
 	
 	public SomePerson(int nmbr) {
-		// TODO Auto-generated constructor stub
 		this.ID = nmbr;
 		this.hasAGift = false;
 	}

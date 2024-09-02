@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class ReverseANumber {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -19,7 +18,6 @@ public class ReverseANumber {
 	}
 
 	private static int reverse(Integer nmbr) {
-		// TODO Auto-generated method stub
 		
 		int nmbrDigits = Integer.toString(nmbr).length();
 		String res = "";

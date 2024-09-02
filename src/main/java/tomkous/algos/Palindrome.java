@@ -2,7 +2,6 @@ package tomkous.algos;
 
 import java.util.Scanner;
 
-import junit.framework.TestCase;
 
 public class Palindrome {
     public static boolean isPalindrome(String word) throws UnsupportedOperationException {

@@ -24,6 +24,7 @@ public class TwoSum {
         int[] indices = findTwoSum(new int[] { 3, 1, 5, 7, 5, 9 }, 10);
         if(indices != null) {
             System.out.println(indices[0] + " " + indices[1]);
+            
         }
     }
 }

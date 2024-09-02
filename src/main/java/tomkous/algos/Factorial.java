@@ -11,7 +11,7 @@ public class Factorial {
 		for(int i = number-1; i > 1; i--){
 			
 			resNumber = resNumber * i;
-		
+			System.out.println(resNumber);
 		}		
 		return resNumber;		
 		
@@ -25,6 +25,7 @@ public class Factorial {
 		
 		if (number > 1)
 			
+			System.out.println(resNumber);
 			resNumber = resNumber * findFactorialRecursive(number);
 				
 		return resNumber;		
@@ -32,8 +33,8 @@ public class Factorial {
 	}
 		
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-        Scanner sc = new Scanner(System.in);
+
+		Scanner sc = new Scanner(System.in);
         
         System.out.println("please enter a number");
         
