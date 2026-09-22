@@ -1,0 +1,8 @@
+# Ignore Maven build output
+target/
+
+# Ignore Eclipse metadata
+.metadata
+bin/
+tmp/
+*.tmp
