@@ -1,0 +1,12 @@
+            - name: Install SonarQube scanner
+  # You may pin to the exact commit or the version.
+  # uses: nosinovacao/sonarscanner@e4b74734c45d79094e4b16c47a47fc57bc012930
+  uses: nosinovacao/sonarscanner@v1
+  with:
+    # The version of the scanner to be used
+    version: # optional, default is 6.1.0.4477
+    # The distribution of Java to be used
+    javaDistribution: # optional, default is temurin
+    # The version of Java to be used
+    javaVersion: # optional, default is 21
+          
