@@ -1,8 +1,8 @@
-# Ignore Maven build output
+# Ignore Maven build binaries
 target/
 
-# Ignore Eclipse metadata
-.metadata
-bin/
-tmp/
-*.tmp
+# Ignore Eclipse metadata and configurations
+.metadata/
+.settings/
+.project
+.classpath
